@@ -7,8 +7,8 @@ if (usuario=="marcelo" && password=="12345") {
 console.log("correcto"); 
 } 
 if (usuario=="marcelo@futura.com" && password=="12345") { 
-// window.location="TU_PAGINA_WEB.HTML"; 
-console.log("correcto");
+window.location="https://www.facebook.com"; 
+// console.log("correcto");
 } 
 if (usuario=="kdkdk" && password=="fkdk") { 
 //window.location="errorpopup.html"; 

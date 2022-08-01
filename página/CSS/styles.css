@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: Arial;
+    background-color: #ededed;
+}
+
+.sect__log{
+    width: 50%;
+    height: 600px;
+    margin: 0 auto;
+    margin-top: 150px;
+    background-color: #ffffff;
+}
+
+.sect__form img {
+    width: 100px;
+    height: 100px;
+    margin-top: -50px;
+    margin-left: 205px;
+}
+
+.sect__form h1 {
+    padding: 30px;
+    font-size: 18px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-left: 25%;
+}
+
+.sect__form input[type="email"], input[type="text"] {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    margin-bottom: 30px;
+    border: 1.5px solid gray;
+    border-radius: 7px;
+}
+
+::placeholder {
+    padding-left: 20px;
+}
+
+.sect__form a {
+    display: block;
+    padding: 5px;
+    margin-top: -15px;
+    float: right;
+    margin-right: 30px;
+    color: red;
+}
+
+
+.form__btn {
+    width: 90%;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 5%;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: #fff;
+}
+
+.form__btn:hover {
+    background-color: transparent;
+    color: red;
+    border: 1.5px solid red;
+}
+
+.select__di h3 {
+    padding: 25px;
+    margin-left: 43%;
+}
+
+.form__btn-2 {
+    width: 90%;
+    height: 40px;
+    margin-left: 5%;
+    background-color: #333333;
+    color: #ffffff;
+    border: none;
+    border-radius: 10px;
+}
+
+.form__btn-2:hover {
+    background-color: transparent;
+    color: #333333;
+    border: 1.5px solid #333333;
+}
+
+.form__btn-2 a {
+    color: #ffffff;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.form__btn-2 a:hover {
+    color: #333333;
+}
+
+@media screen and (max-width: 700px) {
+    .sect__log {
+        width: 90%;
+        height: 500px;
+        margin-top: 100px;
+        margin-bottom: 20px;
+    }
+    
+    .sect__log img {
+        margin-left: 115px;
+    }
+    
+    .sect__log h1 {
+        margin-left: 30px;
+    }
+    
+    .select__di h3 {
+        margin-left: 130px;
+    }
+}

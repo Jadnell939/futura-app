@@ -11,6 +11,6 @@ window.location="TU_PAGINA_WEB.HTML";
 if (usuario=="kdkdk" && password=="fkdk") { 
 window.location="errorpopup.html"; 
 } else{
-    alert("hello");
+    alert("Verificar: Correo electrónico o contraseña incorrectos");
 }
 } 

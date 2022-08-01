@@ -29,7 +29,7 @@
                                    <h3>Documento de identificacion <span class="h3__span">*</span></h3>
                                </label>
                                
-                               <input type="numbee" name="number" id="number" placeholder="dni" required>
+                               <input type="number" name="number" id="number" placeholder="dni" required>
                                
                                <label>
                                    <h3>Direccion <span class="h3__span">*</span></h3>
@@ -68,7 +68,7 @@
                             <a href="log.html">Iniciar Sesion</a>
                         </button>
                         
-                        <button class="form__btn-2" onclick="showAlert">
+                        <button class="form__btn-2" onclick="alert()">
                             Crear Cuenta
                         </button>
                         </form>
@@ -83,7 +83,7 @@ import Swal from 'sweetalert2'
 // CommonJS
 const Swal = require('sweetalert2')
 
-const showAlert = () => {
+function alerta(){
 Swal.fire({
   title: 'Do you want to save the changes?',
   showDenyButton: true,

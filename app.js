@@ -5,7 +5,7 @@ var password=document.form.text.value;
 if (usuario=="marcelo" && password=="12345") { 
 window.location="TU_PAGINA_WEB.HTML"; 
 } 
-if (usuario=="USUARIO2" && password=="CONTRASEÑA2") { 
+if (usuario=="marcelo@futura.com" && password=="12345") { 
 window.location="TU_PAGINA_WEB.HTML"; 
 } 
 if (usuario=="kdkdk" && password=="fkdk") { 
